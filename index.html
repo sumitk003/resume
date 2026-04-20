@@ -1,507 +1,636 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title> Ruby on Rails | React Js| Dynamic Web Application | Turbo-Hotwire | Javascript | API's </title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="kiran Gill, Software Engineer specializing in Ruby on Rails, E-Commerce, and CRM. Explore my portfolio and connect with me today!" />
-    <meta name="author" content="kiran Gill, Software Engineer with expertise in Ruby on Rails and Dynamic Web Application" />
-    <link rel="canonical" href="" />
 
-    <!-- Open Graph -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="kiran Gill - Software Engineer" />
-    <meta property="og:description" content="Dynamic Software Engineer with expertise in Ruby on Rails, E-Commerce Solutions, and CRM. Explore my portfolio to learn more." />
-    <meta property="og:image:alt" content="Profile picture of kiran Gill" />
-    <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+<head>
+  <title> React.js Developer | Frontend-Focused Full Stack Engineer </title>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="kiran Gill, Software Engineer specializing in Ruby on Rails, E-Commerce, and CRM. Explore my portfolio and connect with me today!" />
+  <meta name="author"
+    content="kiran Gill, Software Engineer with expertise in Ruby on Rails and Dynamic Web Application" />
+  <link rel="canonical" href="" />
 
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png" alt="Apple Touch Icon">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png" alt="Favicon 32x32">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png" alt="Favicon 16x16">
-    <link rel="manifest" href="favicon_io/site.webmanifest" alt="Web Manifest">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="kiran Gill - Software Engineer" />
+  <meta property="og:description"
+    content="Dynamic Software Engineer with expertise in Ruby on Rails, E-Commerce Solutions, and CRM. Explore my portfolio to learn more." />
+  <meta property="og:image:alt" content="Profile picture of kiran Gill" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', Arial, sans-serif;
-        }
-        .floating-btn {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-        }
-    </style>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png" alt="Apple Touch Icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png" alt="Favicon 32x32">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png" alt="Favicon 16x16">
+  <link rel="manifest" href="favicon_io/site.webmanifest" alt="Web Manifest">
 
-    <!-- FontAwesome JS -->
-    <script defer src="assets/fontawesome/js/all.min.js"></script>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+    }
 
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/pillar-1.css">
+    .floating-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+  </style>
 
-  </head>
-  <body>
-    <article class="resume-wrapper text-center position-relative" id="download-pdf">
-      <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
-        <header class="resume-header pt-4 pt-md-0">
-          <div class="row">
-            <div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
-              <!-- <img class="picture border border-5" src="assets/images/profile.jpeg" alt=""> -->
-            </div>
-            <!--//col-->
-            <div class="col">
-              <div class="row p-3 justify-content-center justify-content-md-between">
-                <div class="primary-info col-12 col-lg-9 col-md-11">
-                  <h1 class="name mt-0 mb-0 text-white text-uppercase text-uppercase text-center text-md-start">kiran Gill</h1>
-                  <div class="title text-center text-md-start fw-bold">Software Developer</div>
+  <!-- FontAwesome JS -->
+  <script defer src="assets/fontawesome/js/all.min.js"></script>
 
-                  <div class="title text-center text-md-start" style="font-size: 1.2rem;">Ruby on Rails | React Js | Dynamic Web Application | JaveScript | RESTful APIs
-                  </div>
-                   <ul class="list-unstyled">
-                    <li class="mb-2"><a class="text-link" href="mailto:kgill0152@gmail.com"><i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i>kgill0152@gmail.com</a></li>
-                    <li><a class="text-link" href="tel:+91-8847214481"><i class="fas fa-mobile-alt fa-fw me-2" data-fa-transform="grow-6"></i>+91-8847214481</a></li>
-                  </ul>
-                </div>
-                <!--//primary-info-->
-                <div class="secondary-info col-12 col-lg-3 col-md-1 mt-2">
-                  <ul class="resume-social list-unstyled">
-                    <li class="mb-3">
-                      <a class="text-link" href="https://www.linkedin.com/in/kirran-gill-b15004239/" target="_blank">
-                      <span class="fa-container text-center me-2"><i class="fab fa-linkedin-in fa-fw"></i></span><span class="d-md-none d-lg-inline-block">KiranGill</span>
-                      </a>
-                    </li>
-                    <li class="mb-3"><a class="text-link" href="https://wa.me/+91-8847214481" target="_blank"><span class="fa-container text-center me-2"><i class="fab fa-whatsapp fa-fw"></i></span><span class="d-md-none d-lg-inline-block">+91 8847214481</span></a></li>
-                  </ul>
-                </div>
-                <!--//secondary-info-->
-              </div>
-              <!--//row-->
-            </div>
-            <!--//col-->
+  <!-- Theme CSS -->
+  <link id="theme-style" rel="stylesheet" href="assets/css/pillar-1.css">
+
+</head>
+
+<body>
+  <article class="resume-wrapper text-center position-relative" id="download-pdf">
+    <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
+      <header class="resume-header pt-4 pt-md-0">
+        <div class="row">
+          <div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
+            <!-- <img class="picture border border-5" src="assets/images/profile.jpeg" alt=""> -->
           </div>
-          <!--//row-->
-        </header>
-        <div class="resume-body p-5">
-          <!-- // Career Summary -->
-          <section class="resume-section summary-section mb-5">
-            <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3 fw-bold">About Me</h2>
-            <div class="resume-section-content">
-              <p class="mb-0">Ruby on Rails Developer with 3 years of hands-on experience in full-stack web development. Skilled in building
-              scalable web applications, developing RESTful APIs, and integrating front-end technologies. Proven ability to work
-              in Agile teams, reduce bugs, and improve performance. Adept at collaborating with cross-functional teams to
-              deliver robust, user-centric solutions. Passionate about clean code and continuous learning.</p>
-            </div>
-          </section>
-          <!--//summary-section-->
-          <div class="row">
-            <div class="col-lg-9">
-              <!-- //Work Experience -->
-              <section class="resume-section experience-section mb-5">
-                <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3 fw-bold">Work Experience</h2>
-                <div class="resume-section-content">
-                  <div class="resume-timeline position-relative">
-                    <article class="resume-timeline-item position-relative pb-4">
-                      <div class="resume-timeline-item-header mb-2">
-                        <div class="d-flex flex-column flex-md-row">
-                          <h3 class="resume-position-title font-weight-bold mb-1">Software Association<small class="text-muted"></small></h3>
-                          <div class="resume-company-name ms-auto">Ditstek Innovations Pvt. Ltd. (DITS)</div>
-                        </div>
-                        <!--//row-->
-                        <div class="resume-position-time"> Feb 2025 - Nov 2025</div>
-                      </div>
-                      <!--//resume-timeline-item-header-->
-                      <div class="resume-timeline-item-desc">
-                        <p>Collaborative software developer contributing to high-quality project results. Actively participates in code reviews, design discussions, and continuous learning for team success.</p>
-                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements & Optimization:</h4>
-                        <ul>
-                          <li>Collaborated effectively with team members to contribute to project development cycles and achieve high-quality results.</li>
-                          <li>Built a full-stack platform for outdoor guides and adventure businesses to manage their operations digitally.</li>
-                          <li>Developed RESTful APIs for seamless communication between frontend and backend.</li>
-                          <li>Worked within a multi-tenant environment, supporting multiple organizations under a single platform.</li>
-                          <li>Implemented booking and payment workflows using Stripe for secure transactions.</li>
-                          <li>Integrated third-party services such as Twilio (SMS notifications) and AWS (file storage & hosting).</li>
-                          <li>Optimized database models and queries to improve scalability and performance.</li>
-                        </ul>
-                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">Skills:</h4>
-                        <ul class="list-inline">
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Client Calls</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Code Reviews</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Leadership</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Development</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Technical Expertise</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Project Excution</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Agile Methodologies</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Collaboration with Management</span></li>
-                        </ul>
-                      </div>
-                      <!--//resume-timeline-item-desc-->
-                    </article>
-                    <!--//resume-timeline-item-->
-                    <article class="resume-timeline-item position-relative pb-4">
-                      <div class="resume-timeline-item-header mb-2">
-                        <div class="d-flex flex-column flex-md-row">
-                          <h3 class="resume-position-title font-weight-bold mb-1">Junior Software Engineer</h3>
-                          <div class="resume-company-name ms-auto">Anviam Solutions Pvt. Ltd.</div>
-                        </div>
-                        <!--//row-->
-                        <div class="resume-position-time">Aug 2023 - Dec 2024</div>
-                      </div>
-                      <!--//resume-timeline-item-header-->
-                      <div class="resume-timeline-item-desc">
-                        <p>Committed to advancing project excellence through adept problem-solving, collaborative efforts, and continuous learning. Dedicated to fostering positive team dynamics and contributing to collective success.</p>
-                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements & Optimization:</h4>
-                        <ul>
-                          <li>Played a critical role in developing and maintaining full-stack applications, ensuring scalability and performance.</li>
-                          <li>Designed and implemented scalable web solutions using Ruby on Rails and PostgreSQL, achieving a 20% increase in system scalability.</li>
-                          <li> Developed and optimized RESTful APIs, resulting in a 25% boost in data transfer efficiency.</li>
-                          <li>Built responsive user interfaces with HTML, CSS, JavaScript, and Bootstrap, improving usability for over 500 users.</li>
-                          <li>Collaborated in Agile sprints, debugging critical issues and reducing bug incidence by 40%.</li>
-                          <li>Integrated third-party services such as Twilio (SMS notifications) and AWS (file storage & hosting).</li>
-                          <li>Contributed to the company's success by delivering robust, high-performance applications that streamlined operations and enhanced user satisfaction.</li>
-                        </ul>
-                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">Skills:</h4>
-                        <ul class="list-inline">
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Collaborative efforts</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Continuous learning</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Code Efficiency</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Problem Solving</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Coding Skills</span></li>
-                        </ul>
-                      </div>
-                      <!--//resume-timeline-item-desc-->
-                    </article>
-                    <!--//resume-timeline-item-->
-                    <article class="resume-timeline-item position-relative pb-4n">
-                      <div class="resume-timeline-item-header mb-2">
-                        <div class="d-flex flex-column flex-md-row">
-                          <h3 class="resume-position-title font-weight-bold mb-1">Software Engineer Intern </h3>
-                          <div class="resume-company-name ms-auto">Anviam Solutions Pvt. Ltd.</div>
-                        </div>
-                        <!--//row-->
-                        <div class="resume-position-time">Feb 2023 - Aug 2023</div>
-                      </div>
-                      <!--//resume-timeline-item-header-->
-                      <div class="resume-timeline-item-desc">
-                        <p>Completed an internship in Ruby on Rails, gaining hands-on experience in developing and maintaining web applications. Proficient in HTML, CSS, and JavaScript for front-end development, with exposure to tools and frameworks that enhance web functionality and user experience. Strong problem-solving skills and a passion for learning new technologies.</p>
-                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">Skills:</h4>
-                        <ul class="list-inline">
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby </span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby On Rails</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Html/CSS/Js</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Hotwire</span></li>
-                        </ul>
-                      </div>
-                      <!--//resume-timeline-item-desc-->
-                    </article>
-                    <!--//resume-timeline-item-->
-                  </div>
-                  <!--//resume-timeline-->
-                </div>
-              </section>
-              <!--//experience-section-->
+          <!--//col-->
+          <div class="col">
+            <div class="row p-3 justify-content-center justify-content-md-between">
+              <div class="primary-info col-12 col-lg-9 col-md-11">
+                <h1 class="name mt-0 mb-0 text-white text-uppercase text-uppercase text-center text-md-start">kiran Gill
+                </h1>
+                <div class="title text-center text-md-start fw-bold">Software Developer</div>
 
-              <!-- //Projects -->
-              <section class="resume-section experience-section mb-5">
-                <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3 fw-bold">Projects</h2>
-                <div class="resume-section-content">
-                  <div class="resume-timeline position-relative">
+                <div class="title text-center text-md-start" style="font-size: 1.2rem;">React Js | Ruby on Rails |
+                  Dynamic Web Application | JaveScript | RESTful APIs
+                </div>
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a class="text-link" href="mailto:kgill0152@gmail.com"><i
+                        class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i>kgill0152@gmail.com</a></li>
+                  <li><a class="text-link" href="tel:+91-8847214481"><i class="fas fa-mobile-alt fa-fw me-2"
+                        data-fa-transform="grow-6"></i>+91-8847214481</a></li>
+                </ul>
+              </div>
+              <!--//primary-info-->
+              <div class="secondary-info col-12 col-lg-3 col-md-1 mt-2">
+                <ul class="resume-social list-unstyled">
+                  <li class="mb-3">
+                    <a class="text-link" href="https://www.linkedin.com/in/kirran-gill-b15004239/" target="_blank">
+                      <span class="fa-container text-center me-2"><i class="fab fa-linkedin-in fa-fw"></i></span><span
+                        class="d-md-none d-lg-inline-block">KiranGill</span>
+                    </a>
+                  </li>
+                  <li class="mb-3"><a class="text-link" href="https://wa.me/+91-8847214481" target="_blank"><span
+                        class="fa-container text-center me-2"><i class="fab fa-whatsapp fa-fw"></i></span><span
+                        class="d-md-none d-lg-inline-block">+91 8847214481</span></a></li>
+                </ul>
+              </div>
+              <!--//secondary-info-->
+            </div>
+            <!--//row-->
+          </div>
+          <!--//col-->
+        </div>
+        <!--//row-->
+      </header>
+      <div class="resume-body p-5">
+        <!-- // Career Summary -->
+        <section class="resume-section summary-section mb-5">
+          <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3 fw-bold">About Me</h2>
+          <div class="resume-section-content">
+            <p class="mb-0">Full Stack Developer with 3 years of experience in building scalable web applications,
+              including 2 years of
+              focused experience in React.js development. Skilled in creating dynamic, component-driven UIs, integrating
+              RESTful APIs, and optimizing front-end performance. Strong background in Ruby on Rails enables seamless
+              backend integration and efficient end-to-end feature delivery.
+          </div>
+        </section>
+        <!--//summary-section-->
+        <div class="row">
+          <div class="col-lg-9">
+            <!-- //Work Experience -->
+            <section class="resume-section experience-section mb-5">
+              <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3 fw-bold">Work Experience</h2>
+              <div class="resume-section-content">
+                <div class="resume-timeline position-relative">
+                  <article class="resume-timeline-item position-relative pb-4">
+                    <div class="resume-timeline-item-header mb-2">
+                      <div class="d-flex flex-column flex-md-row">
+                        <h3 class="resume-position-title font-weight-bold mb-1">Software Association<small
+                            class="text-muted"></small></h3>
+                        <div class="resume-company-name ms-auto">Ditstek Innovations Pvt. Ltd. (DITS)</div>
+                      </div>
+                      <!--//row-->
+                      <div class="resume-position-time"> Feb 2025 - Nov 2025</div>
+                    </div>
+                    <!--//resume-timeline-item-header-->
+                    <div class="resume-timeline-item-desc">
+                      <p>Collaborative software developer contributing to high-quality project results. Actively
+                        participates in code reviews, design discussions, and continuous learning for team success.</p>
+                      <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements & Optimization:</h4>
+                      <ul>
+                        <li>Developed dynamic and responsive user interfaces using React.js.</li>
+                        <li>Built reusable components for scalable frontend architecture.</li>
+                        <li>Integrated REST APIs for real-time data handling and UI updates.</li>
+                        <li>Improved UI performance and responsiveness across key modules.</li>
+                        <li>Worked on booking, dashboard, and client management interfaces.</li>
+                        <li>Collaborated with backend teams for efficient API design.</li>
+                        <li>Contributed to Agile development cycles and code reviews.</li>
+                      </ul>
+                      <h4 class="resume-timeline-item-desc-heading font-weight-bold">Skills:</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Client Calls</span>
+                        </li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Code Reviews</span>
+                        </li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Leadership</span></li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Development</span></li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Technical
+                            Expertise</span></li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Project Excution</span>
+                        </li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Agile
+                            Methodologies</span></li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Collaboration with
+                            Management</span></li>
+                      </ul>
+                    </div>
+                    <!--//resume-timeline-item-desc-->
+                  </article>
+                  <!--//resume-timeline-item-->
+                  <article class="resume-timeline-item position-relative pb-4">
+                    <div class="resume-timeline-item-header mb-2">
+                      <div class="d-flex flex-column flex-md-row">
+                        <h3 class="resume-position-title font-weight-bold mb-1">Junior Software Engineer</h3>
+                        <div class="resume-company-name ms-auto">Anviam Solutions Pvt. Ltd.</div>
+                      </div>
+                      <!--//row-->
+                      <div class="resume-position-time">Aug 2023 - Dec 2024</div>
+                    </div>
+                    <!--//resume-timeline-item-header-->
+                    <div class="resume-timeline-item-desc">
+                      <p>Committed to advancing project excellence through adept problem-solving, collaborative efforts,
+                        and continuous learning. Dedicated to fostering positive team dynamics and contributing to
+                        collective success.</p>
+                      <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements & Optimization:</h4>
+                      <ul>
+                        <li>Built responsive UI using JavaScript, HTML, CSS, and Bootstrap.</li>
+                        <li>Gradually worked on React-based components and frontend improvements.</li>
+                        <li>Integrated APIs with frontend for seamless data rendering.
+                        </li>
+                        <li>Improved application usability for 500+ users.</li>
+                        <li>Debugged UI issues and enhanced overall performance.
+                        </li>
+                      </ul>
+                      <h4 class="resume-timeline-item-desc-heading font-weight-bold">Skills:</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Collaborative
+                            efforts</span></li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Continuous
+                            learning</span></li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Code Efficiency</span>
+                        </li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Problem Solving</span>
+                        </li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Coding Skills</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <!--//resume-timeline-item-desc-->
+                  </article>
+                  <!--//resume-timeline-item-->
+                  <article class="resume-timeline-item position-relative pb-4n">
+                    <div class="resume-timeline-item-header mb-2">
+                      <div class="d-flex flex-column flex-md-row">
+                        <h3 class="resume-position-title font-weight-bold mb-1">Software Engineer Intern </h3>
+                        <div class="resume-company-name ms-auto">Anviam Solutions Pvt. Ltd.</div>
+                      </div>
+                      <!--//row-->
+                      <div class="resume-position-time">Feb 2023 - Aug 2023</div>
+                    </div>
+                    <!--//resume-timeline-item-header-->
+                    <div class="resume-timeline-item-desc">
+                      <p>Completed an internship in Ruby on Rails and React.js, gaining hands-on experience in
+                        developing and
+                        maintaining web applications. Proficient in HTML, CSS, JavaScript and React.js for front-end
+                        development,
+                        with exposure to tools and frameworks that enhance web functionality and user experience. Strong
+                        problem-solving skills and a passion for learning new technologies.</p>
+                      <h4 class="resume-timeline-item-desc-heading font-weight-bold">Skills:</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby </span></li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby On Rails</span>
+                        </li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Html/CSS/Js</span></li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Hotwire</span></li>
+                      </ul>
+                    </div>
+                    <!--//resume-timeline-item-desc-->
+                  </article>
+                  <!--//resume-timeline-item-->
+                </div>
+                <!--//resume-timeline-->
+              </div>
+            </section>
+            <!--//experience-section-->
+
+            <!-- //Projects -->
+            <section class="resume-section experience-section mb-5">
+              <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3 fw-bold">Projects</h2>
+              <div class="resume-section-content">
+                <div class="resume-timeline position-relative">
 
                   <!-- DS Guide – Full-stack Web Platform (Ruby on Rails + React) -->
-                    <article class="resume-timeline-item position-relative pb-4">
-                      <div class="resume-timeline-item-header mb-2">
-                        <div class="d-flex flex-column flex-md-row">
-                          <h3 class="resume-position-title font-weight-bold mb-1">DS Guide – Full-stack Web Platform</h3>
-                        </div>
-                        <!--//row-->
-                        <div class="resume-position-time">Feb 2025 - Nov 2025</div>
+                  <article class="resume-timeline-item position-relative pb-4">
+                    <div class="resume-timeline-item-header mb-2">
+                      <div class="d-flex flex-column flex-md-row">
+                        <h3 class="resume-position-title font-weight-bold mb-1">DS Guide – Full-stack Web Platform</h3>
                       </div>
-                      <!--//resume-timeline-item-header-->
-                      <div class="resume-timeline-item-desc">
-                        <p>DS Guide – A full-stack web platform built with Ruby on Rails and React, designed for outdoor guides and adventure businesses to manage their operations digitally. Key responsibilities included developing RESTful APIs, implementing booking and payment workflows, integrating third-party services (Stripe, Twilio, AWS), and optimizing database models for scalability. Worked on modules like Experience Listings, Bookings, Waivers, Client Management, Notifications, and Chat, ensuring clean architecture and reusable components within a multi-tenant environment.</p>
-                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
-                        <ul class="list-inline">
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby on Rails</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">JavaScript</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">jQuery</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">RESTful APIs</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Sidekiq</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">AJAX</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">React</span></li>
-                        </ul>
-                      </div>
-                      <!--//resume-timeline-item-desc-->
-                    </article>
-
-
-                    <article class="resume-timeline-item position-relative pb-4">
-                      <div class="resume-timeline-item-header mb-2">
-                        <div class="d-flex flex-column flex-md-row">
-                          <h3 class="resume-position-title font-weight-bold mb-1">Tankspotter</h3>
-                          <div class="resume-company-name ms-auto"> 
-                          </div>
-                        </div>
-                        <!--//row-->
-                        <div class="resume-position-time">Aug 2023 - Aug 2024</div>
-                      </div>
-                      <!--//resume-timeline-item-header-->
-                      <div class="resume-timeline-item-desc">
-                        <p>TankSpotter is a comprehensive mobile service, sales, and safety management application designed for the propane and heating oil industries. It automates field operations, enabling paperless collection and instant reporting of safety inspections, maintenance priorities, and sales proposals. The system utilizes GPS, camera, and data capture to track critical tank information, enhance regulatory compliance, and support targeted sales and marketing campaigns by accurately locating and inventorying all tanks in a service area.</p>
-                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
-                        <ul class="list-inline">
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby on Rails</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Angular</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Javascript</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Haml</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Mysql</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Capistrano</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">AWS</span></li>
-                        </ul>
-                      </div>
-                      <!--//resume-timeline-item-desc-->
-                    </article>
-
-                                        <!-- Claire Austin Hardy Plants -->
-                    <article class="resume-timeline-item position-relative pb-4">
-                      <div class="resume-timeline-item-header mb-2">
-                        <div class="d-flex flex-column flex-md-row">
-                          <h3 class="resume-position-title font-weight-bold mb-1">Token Management System</h3>
-                        </div>
-                        <!--//row-->
-                        <div class="resume-position-time">Aug 2024 - Des 204</div>
-                      </div>
-                      <!--//resume-timeline-item-header-->
-                      <div class="resume-timeline-item-desc">
-                      <p>Designed and developed a robust Token Management System using Ruby on Rails to implement secure user authentication and authorization for the core application APIs. I engineered the backend to utilize JSON Web Tokens (JWTs) for stateless session management, significantly enhancing scalability and security.</p>
+                      <!--//row-->
+                      <div class="resume-position-time">Feb 2025 - Nov 2025</div>
+                    </div>
+                    <!--//resume-timeline-item-header-->
+                    <div class="resume-timeline-item-desc">
+                      <p>DS Guide is a scalable web platform built using React.js and Ruby on Rails, designed for
+                        outdoor guides and adventure businesses to manage their operations digitally. I primarily worked
+                        on the React.js frontend, developing dynamic and responsive user interfaces for modules like
+                        Experience Listings, Bookings, Client Management, and Dashboard. I implemented reusable
+                        components, handled API integration for real-time data updates, and ensured smooth user
+                        interactions across the platform. Additionally, I contributed to features like chat,
+                        notifications, and booking workflows while maintaining clean architecture and optimizing
+                        frontend performance within a multi-tenant environment..
+                      </p>
                       <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
-                        <ul class="list-inline">
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby on Rails</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">JavaScript</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">jQuery</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">RESTful APIs</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Sidekiq</span></li>
-                          <li class="list-inline-item"><span class="badge bg-secondary badge-pill">AJAX</span></li>
-                        </ul>
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">React.js</span>
+                        </li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">JavaScript</span></li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">RESTful APIs</span>
+                        </li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby on Rails</span>
+                        </li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Sidekiq</span></li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">AJAX</span></li>
+                      </ul>
+                    </div>
+                    <!--//resume-timeline-item-desc-->
+                  </article>
+
+
+                  <article class="resume-timeline-item position-relative pb-4">
+                    <div class="resume-timeline-item-header mb-2">
+                      <div class="d-flex flex-column flex-md-row">
+                        <h3 class="resume-position-title font-weight-bold mb-1">Tankspotter</h3>
+                        <div class="resume-company-name ms-auto">
+                        </div>
                       </div>
-                      <!--//resume-timeline-item-desc-->
-                    </article>
+                      <!--//row-->
+                      <div class="resume-position-time">Aug 2023 - Aug 2024</div>
+                    </div>
+                    <!--//resume-timeline-item-header-->
+                    <div class="resume-timeline-item-desc">
+                      <p>Tankspotter is a mobile service and safety management application designed for the propane and
+                        heating oil industry. I contributed to frontend development, focusing on building responsive
+                        user interfaces and improving usability across different devices. I worked on integrating
+                        backend APIs to display operational data effectively and enhanced the overall user experience by
+                        refining UI components and ensuring consistent design across the application..</p>
+                      <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">React</span></li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">JavaScript</span>
+                        </li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">HTML</span></li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">CSS</span></li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby on Rails</span>
+                        </li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Capistrano</span></li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">AWS</span></li>
+                      </ul>
+                    </div>
+                    <!--//resume-timeline-item-desc-->
+                  </article>
 
-                    <!--//resume-timeline-item-->
-                  </div>
-                  <!--//resume-timeline-->
+                  <!-- Claire Austin Hardy Plants -->
+                  <article class="resume-timeline-item position-relative pb-4">
+                    <div class="resume-timeline-item-header mb-2">
+                      <div class="d-flex flex-column flex-md-row">
+                        <h3 class="resume-position-title font-weight-bold mb-1">Token Management System</h3>
+                      </div>
+                      <!--//row-->
+                      <div class="resume-position-time">Aug 2024 - Des 204</div>
+                    </div>
+                    <!--//resume-timeline-item-header-->
+                    <div class="resume-timeline-item-desc">
+                      <p>The Token Management System is designed to provide secure authentication and authorization for
+                        application APIs. Along with backend development, I worked on frontend integration, ensuring
+                        smooth interaction between the UI and APIs. I handled API responses, improved data flow, and
+                        contributed to enhancing user experience by making authentication processes more seamless and
+                        efficient using JWT-based systems.</p>
+                      <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">React.js</span></li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">JavaScript</span></li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">jQuery</span></li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby on Rails</span>
+                        </li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">RESTful APIs</span>
+                        </li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Sidekiq</span></li>
+                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">AJAX</span></li>
+                      </ul>
+                    </div>
+                    <!--//resume-timeline-item-desc-->
+                  </article>
+
+                  <!--//resume-timeline-item-->
                 </div>
-              </section>
-              <!--//projects-section-->
-            </div>
-            <div class="col-lg-3">
-              <!-- //Skills -->
-              <section class="resume-section skills-section mb-5">
-                <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3 fw-bold">Skills &amp; Tools</h2>
-                <div class="resume-section-content">
-                  <!--//resume-skill-item-->
-                  <div class="resume-skill-item">
-                    <h4 class="resume-skills-cat font-weight-bold">Backend</h4>
-                    <ul class="list-unstyled">
-                      <li class="mb-2">
-                        <div class="resume-skill-name">Ruby</div>
-                        <div class="progress resume-progress">
-                          <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </li>
-                      <li class="mb-2">
-                        <div class="resume-skill-name">Ruby On Rails</div>
-                        <div class="progress resume-progress">
-                          <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </li>
-                      <li class="mb-2">
-                        <div class="resume-skill-name">RestFul API's</div>
-                        <div class="progress resume-progress">
-                          <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                  <!--//resume-skill-item-->
-                  <div class="resume-skill-item">
-                    <h4 class="resume-skills-cat font-weight-bold">Database</h4>
-                    <ul class="list-unstyled">
-                      <li class="mb-2">
-                        <div class="resume-skill-name">MySQL</div>
-                        <div class="progress resume-progress">
-                          <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </li>
-                      <li class="mb-2">
-                        <div class="resume-skill-name">Postgresql</div>
-                        <div class="progress resume-progress">
-                          <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                  <!-- // Frontend -->
-                  <div class="resume-skill-item">
-                    <h4 class="resume-skills-cat font-weight-bold">Frontend</h4>
-                    <ul class="list-unstyled mb-4">
-                      <li class="mb-2">
-                        <div class="resume-skill-name">React Js</div>
-                        <div class="progress resume-progress">
-                          <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </li>
-
-                      <li class="mb-2">
-                        <div class="resume-skill-name">JavaScript | jQuery</div>
-                        <div class="progress resume-progress">
-                          <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </li>
-
-
-                      <li class="mb-2">
-                        <div class="resume-skill-name">Bootstrap</div>
-                        <div class="progress resume-progress">
-                          <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </li>
-                      <li class="mb-2">
-                        <div class="resume-skill-name">Hotwire | Turbo Frames</div>
-                        <div class="progress resume-progress">
-                          <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </li>
-                      <li class="mb-2">
-                        <div class="resume-skill-name">HTML/CSS/SASS</div>
-                        <div class="progress resume-progress">
-                          <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 96%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                  <!-- // Web Services -->
-                  <div class="resume-skill-item">
-                    <h4 class="resume-skills-cat font-weight-bold">Web Services</h4>
-                    <ul class="list-unstyled mb-4">
-                      <li class="mb-2">
-                        <div class="resume-skill-name">Nginx</div>
-                        <div class="progress resume-progress">
-                          <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </li>
-                      <li class="mb-2">
-                        <div class="resume-skill-name">Puma</div>
-                        <div class="progress resume-progress">
-                          <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </li>
-                      <li class="mb-2">
-                        <div class="resume-skill-name">Sidekiq</div>
-                        <div class="progress resume-progress">
-                          <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </li>
-                      <li class="mb-2">
-                        <div class="resume-skill-name">Redis</div>
-                        <div class="progress resume-progress">
-                          <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 74%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="resume-skill-item">
-                    <h4 class="resume-skills-cat font-weight-bold">OS</h4>
-                    <ul class="list-unstyled mb-4">
-                      <li class="mb-2">
-                        <div class="resume-skill-name">Ubuntu</div>
-                        <div class="progress resume-progress">
-                          <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 88%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </li>
-                      <li class="mb-2">
-                        <div class="resume-skill-name">Window</div>
-                        <div class="progress resume-progress">
-                          <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                  <!--//resume-skill-item-->
-                  <div class="resume-skill-item">
-                    <h4 class="resume-skills-cat font-weight-bold">Others</h4>
-                    <ul class="list-inline">
-                      <li class="list-inline-item"><span class="badge badge-light">GitHub</span></li>
-                      <li class="list-inline-item"><span class="badge badge-light">Postman API Platform</span></li>
-                      <li class="list-inline-item"><span class="badge badge-light">Stripe</span></li>
-                      <li class="list-inline-item"><span class="badge badge-light">ElasticSearch</span></li>
-                      <li class="list-inline-item"><span class="badge badge-light">filterrific</span></li>
-                      <li class="list-inline-item"><span class="badge badge-light">reCAPTCHA</span></li>
-                      <li class="list-inline-item"><span class="badge badge-light">Client Calls</span></li>
-                      <li class="list-inline-item"><span class="badge badge-light">Client Retention</span></li>
-                    </ul>
-                  </div>
-                  <!--//resume-skill-item-->
-                </div>
-                <!--resume-section-content-->
-              </section>
-              <!--//skills-section-->
-              <!-- //Education -->
-              <section class="resume-section education-section mb-5">
-                <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3 fw-bold">Education</h2>
-                <div class="resume-section-content">
+                <!--//resume-timeline-->
+              </div>
+            </section>
+            <!--//projects-section-->
+          </div>
+          <div class="col-lg-3">
+            <!-- //Skills -->
+            <section class="resume-section skills-section mb-5">
+              <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3 fw-bold">Skills &amp; Tools</h2>
+              <div class="resume-section-content">
+                <!--//resume-skill-item-->
+                <div class="resume-skill-item">
+                  <h4 class="resume-skills-cat font-weight-bold">Backend</h4>
                   <ul class="list-unstyled">
                     <li class="mb-2">
-                      <div class="resume-degree font-weight-bold">Master of Computer Applications</div>
-                      <div class="resume-degree-org">DAV University, Jalandhar, Punjab</div>
-                      <div class="resume-degree-time">2019 – 2022</div>
+                      <div class="resume-skill-name">Ruby</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 85%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+                    <li class="mb-2">
+                      <div class="resume-skill-name">Ruby On Rails</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 95%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+                    <li class="mb-2">
+                      <div class="resume-skill-name">RestFul API's</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 95%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
                     </li>
                   </ul>
                 </div>
-              </section>
-              <!--//education-section-->
-              <!--//Language-section-->
-              <section class="resume-section language-section mb-5">
-                <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3 fw-bold">Language</h2>
-                <div class="resume-section-content">
-                  <ul class="list-unstyled resume-lang-list">
-                    <li class="mb-2"><span class="resume-lang-name font-weight-bold">Hindi</span> <small class="text-muted font-weight-normal"></small></li>
-                    <li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">English</span> <small class="text-muted font-weight-normal"></small></li>
-                  </ul>
-                </div>
-              </section>
-              <!--//language-section-->
-              <!-- //Interests-section -->
-              <section class="resume-section interests-section mb-5">
-                <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3 fw-bold">Interests</h2>
-                <div class="resume-section-content">
+                <!--//resume-skill-item-->
+                <div class="resume-skill-item">
+                  <h4 class="resume-skills-cat font-weight-bold">Database</h4>
                   <ul class="list-unstyled">
-                    <li class="mb-1">Cooking</li>
-                    <li class="mb-1">Traveling</li>
+                    <li class="mb-2">
+                      <div class="resume-skill-name">MySQL</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 70%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+                    <li class="mb-2">
+                      <div class="resume-skill-name">Postgresql</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 70%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
                   </ul>
                 </div>
-              </section>
-              <!--//interests-section-->
-            </div>
-          </div>
-          <!--//row-->
-        </div>
-        <!--//resume-body-->
-      </div>
-    </article>
-    <footer class="footer text-center pt-2 pb-5">
-      <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-      <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-    </footer>
+                <!-- // Frontend -->
+                <div class="resume-skill-item">
+                  <h4 class="resume-skills-cat font-weight-bold">Frontend</h4>
+                  <ul class="list-unstyled mb-4">
+                    <li class="mb-2">
+                      <div class="resume-skill-name">React Js</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
 
-    <a href="sumitk003.pdf" class="btn btn-success floating-btn" download data-toggle="tooltip" title="Download CV" target="_blank">
-      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-earmark-arrow-down-fill" viewBox="0 0 16 16">
-        <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1m-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0"/>
-      </svg>
-    </a>
-  </body>
+                    <li class="mb-2">
+                      <div class="resume-skill-name">Hooks</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+
+                    <li class="mb-2">
+                      <div class="resume-skill-name">React Router</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+
+                    <li class="mb-2">
+                      <div class="resume-skill-name">Axios</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+
+                    <li class="mb-2">
+                      <div class="resume-skill-name">Component Lifecycle</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+
+                    <li class="mb-2">
+                      <div class="resume-skill-name">Conditional Rendering</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+
+                    <li class="mb-2">
+                      <div class="resume-skill-name">Forms Handling</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+
+                    <li class="mb-2">
+                      <div class="resume-skill-name">JavaScript | jQuery</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+
+
+                    <li class="mb-2">
+                      <div class="resume-skill-name">Bootstrap</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 85%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+                    <li class="mb-2">
+                      <div class="resume-skill-name">Hotwire | Turbo Frames</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 50%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+                    <li class="mb-2">
+                      <div class="resume-skill-name">HTML/CSS/SASS</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 96%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <!-- // Web Services -->
+                <div class="resume-skill-item">
+                  <h4 class="resume-skills-cat font-weight-bold">Web Services</h4>
+                  <ul class="list-unstyled mb-4">
+                    <li class="mb-2">
+                      <div class="resume-skill-name">Nginx</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+                    <li class="mb-2">
+                      <div class="resume-skill-name">Puma</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+                    <li class="mb-2">
+                      <div class="resume-skill-name">Sidekiq</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 75%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+                    <li class="mb-2">
+                      <div class="resume-skill-name">Redis</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 74%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="resume-skill-item">
+                  <h4 class="resume-skills-cat font-weight-bold">OS</h4>
+                  <ul class="list-unstyled mb-4">
+                    <li class="mb-2">
+                      <div class="resume-skill-name">Ubuntu</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 88%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+                    <li class="mb-2">
+                      <div class="resume-skill-name">Window</div>
+                      <div class="progress resume-progress">
+                        <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 90%"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <!--//resume-skill-item-->
+                <div class="resume-skill-item">
+                  <h4 class="resume-skills-cat font-weight-bold">Others</h4>
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><span class="badge badge-light">GitHub</span></li>
+                    <li class="list-inline-item"><span class="badge badge-light">Postman API Platform</span></li>
+                    <li class="list-inline-item"><span class="badge badge-light">Stripe</span></li>
+                    <li class="list-inline-item"><span class="badge badge-light">ElasticSearch</span></li>
+                    <li class="list-inline-item"><span class="badge badge-light">filterrific</span></li>
+                    <li class="list-inline-item"><span class="badge badge-light">reCAPTCHA</span></li>
+                    <li class="list-inline-item"><span class="badge badge-light">Client Calls</span></li>
+                    <li class="list-inline-item"><span class="badge badge-light">Client Retention</span></li>
+                  </ul>
+                </div>
+                <!--//resume-skill-item-->
+              </div>
+              <!--resume-section-content-->
+            </section>
+            <!--//skills-section-->
+            <!-- //Education -->
+            <section class="resume-section education-section mb-5">
+              <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3 fw-bold">Education</h2>
+              <div class="resume-section-content">
+                <ul class="list-unstyled">
+                  <li class="mb-2">
+                    <div class="resume-degree font-weight-bold">Master of Computer Applications</div>
+                    <div class="resume-degree-org">DAV University, Jalandhar, Punjab</div>
+                    <div class="resume-degree-time">2019 – 2022</div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <!--//education-section-->
+            <!--//Language-section-->
+            <section class="resume-section language-section mb-5">
+              <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3 fw-bold">Language</h2>
+              <div class="resume-section-content">
+                <ul class="list-unstyled resume-lang-list">
+                  <li class="mb-2"><span class="resume-lang-name font-weight-bold">Hindi</span> <small
+                      class="text-muted font-weight-normal"></small></li>
+                  <li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">English</span> <small
+                      class="text-muted font-weight-normal"></small></li>
+                </ul>
+              </div>
+            </section>
+            <!--//language-section-->
+            <!-- //Interests-section -->
+            <section class="resume-section interests-section mb-5">
+              <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3 fw-bold">Interests</h2>
+              <div class="resume-section-content">
+                <ul class="list-unstyled">
+                  <li class="mb-1">Cooking</li>
+                  <li class="mb-1">Traveling</li>
+                </ul>
+              </div>
+            </section>
+            <!--//interests-section-->
+          </div>
+        </div>
+        <!--//row-->
+      </div>
+      <!--//resume-body-->
+    </div>
+  </article>
+  <footer class="footer text-center pt-2 pb-5">
+    <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+    <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a
+        href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+  </footer>
+
+  <a href="sumitk003.pdf" class="btn btn-success floating-btn" download data-toggle="tooltip" title="Download CV"
+    target="_blank">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+      class="bi bi-file-earmark-arrow-down-fill" viewBox="0 0 16 16">
+      <path
+        d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1m-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0" />
+    </svg>
+  </a>
+</body>
+
 </html>
